@@ -20,7 +20,7 @@ body {
 
 body p {
 	font-size: 16px;
-	font-family: Outfit;
+	font-family: 'Outfit', sans-serif;
 }
 
 h3 {
@@ -32,10 +32,18 @@ h2 {
 }
 
 h1 h2 h3 {
-	font-family: Young Serif;
+	font-family: 'Young Serif' sans-serif;
 }
 
 .container {
 	background-color: hsl(0, 0%, 100%);
-	margin: 10rem 20rem 10rem 20rem;
+	margin: 10rem 30rem 10rem 30rem;
+}
+
+.header_img {
+	height: 25rem;
+	width: auto;
+}
+
+.header {
 }
