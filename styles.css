@@ -69,4 +69,8 @@ header p {
 	padding: 1rem 0 1rem 0;
 }
 
-
+.prep_section {
+	border: 1px solid red;
+	background-color: hsl(330, 100%, 98%);
+	
+}
