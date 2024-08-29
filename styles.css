@@ -76,9 +76,24 @@ header p {
 .prep_section {
 	border-radius: 1rem;
 	margin: 2rem;
-	padding: 2rem;
+	padding: 4rem;
 	height: 100%;
 	width: 90%;
-	border: 1px solid red;
 	background-color: hsl(330, 100%, 98%);
+}
+
+.prep_section li {
+	font-family: 'Outfit', sans-serif;
+	margin: 1rem;
+	font-size: 16px;
+	font-weight: 400;
+	color: hsl(24, 5%, 18%);
+	margin-left: 2.3rem;
+	padding-left: 2rem;
+}
+
+.prep_section h3 {
+	font-family: 'Outfit', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
 }
