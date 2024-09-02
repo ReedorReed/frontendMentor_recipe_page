@@ -48,6 +48,10 @@ h1 h2 h3 {
 	align-items: center;
 }
 
+.bold {
+	font-weight: 600;
+}
+
 /* Header section */
 
 .header_img {
@@ -97,3 +101,5 @@ header p {
 	font-size: 20px;
 	font-weight: 600;
 }
+
+/* Ingredients section */
