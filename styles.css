@@ -126,7 +126,7 @@ header p {
 	list-style-type: square;
 }
 
-li::marker {
+.ingredient_section li::marker {
 	color: hsl(14, 45%, 36%);
 	font-size: 1rem;
 }
@@ -154,7 +154,7 @@ li::marker {
 	padding-left: 2rem;
 }
 
-li::marker {
+.intructions_section li::marker {
 	color: hsl(14, 45%, 36%);
 	font-size: 1.6rem;
 	font-weight: 600;
@@ -163,6 +163,37 @@ li::marker {
 /* section line */
 
 .section_line {
-	display: flex;
-	border-top: 1rem solid red;
+	/* border-top: 5rem solid red; */
+	border: 0;
+	clear: both;
+	display: block;
+	width: 90%;
+	background-color: hsl(30, 18%, 87%);
+	height: 1px;
+}
+
+/* nutrition section */
+
+.nutrition_section h2 {
+	font-size: 3rem;
+}
+
+.nutrition_section {
+	border-radius: 1rem;
+	margin: 2rem;
+	height: 100%;
+	width: 90%;
+}
+
+.nutrition_section p {
+	margin: 1rem;
+}
+
+.nutrition_table {
+	border-bottom: 1px solid #ddd;
+}
+
+.nutrition_table table {
+	border-collapse: collapse;
+	width: 100%;
 }
