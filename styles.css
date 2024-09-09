@@ -52,6 +52,11 @@ h1 h2 h3 {
 	font-weight: 600;
 }
 
+.bold_brown {
+	font-weight: 600;
+	color: hsl(14, 45%, 36%);
+}
+
 /* Header section */
 
 .header_img {
@@ -62,17 +67,19 @@ h1 h2 h3 {
 }
 
 .header {
-	margin-left: 4rem;
+	margin-right: 15%;
 }
 
 .header h1 {
-	font-size: 3rem;
+	font-size: 5rem;
 	font-weight: 400;
+	margin: 0 0 1rem 0;
 }
 
 header p {
 	font-weight: 400;
-	padding: 1rem 0 1rem 0;
+	padding: 1rem 0 1.2rem 0;
+	font-size: 1.6rem;
 }
 
 /* Preperation section */
@@ -189,11 +196,27 @@ header p {
 	margin: 1rem;
 }
 
-.nutrition_table {
+.nutrition_table tr {
 	border-bottom: 1px solid #ddd;
 }
 
 .nutrition_table table {
 	border-collapse: collapse;
-	width: 50%;
+	width: 100%;
+	margin: 2rem 0;
+	font-size: 1.6rem;
+	font-family: 'Outfit', sans-serif;
+	color: hsl(24, 5%, 18%);
+}
+
+.nutrition_table td {
+	padding: 1rem 1.5rem;
+}
+
+.nutrition_table td:nth-child(2) {
+	text-align: left;
+}
+
+.nutrition_table tr:last-child {
+	border-bottom: none;
 }
