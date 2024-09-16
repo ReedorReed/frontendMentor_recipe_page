@@ -74,6 +74,7 @@ h1 h2 h3 {
 	font-size: 5rem;
 	font-weight: 400;
 	margin: 0 0 1rem 0;
+	line-height: 1.2;
 }
 
 header p {
@@ -219,4 +220,24 @@ header p {
 
 .nutrition_table tr:last-child {
 	border-bottom: none;
+}
+
+/* Responsive */
+
+@media (max-width: 375px) {
+	.header {
+		margin-left: 10%;
+	}
+
+	.header_img {
+		height: auto;
+		width: 100%;
+		border-radius: 0;
+		padding: 0 0 2rem;
+	}
+
+	.header h1 {
+		font-size: 2.9rem;
+		line-height: 1.1;
+	}
 }
